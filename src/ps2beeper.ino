@@ -19,7 +19,7 @@ void loop() {
     }
     if (buzzertoggle) {
         if (digitalRead(5)==LOW) { // when the ps/2 data line is pulled low to signal the start of a keycode (both upstroke and downstroke), the buzzer will beep.
-        tone(buzzerpin,1000,7); // the buzzer beeps at 1000hz for 7ms -- you can try other frequencies and beep durations.
+        tone(buzzerpin,1000,1); // the buzzer beeps at 1000hz for 1ms -- you can try other frequencies and beep durations.
         }
     }
 }
